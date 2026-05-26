@@ -391,52 +391,6 @@ Implemented:
 
 ---
 
-# Docker Setup
-
-## Build Docker Image
-
-```bash
-docker build -t ai-support-system .
-```
-
-## Run Container
-
-```bash
-docker run -p 8000:8000 ai-support-system
-```
-
----
-
-# Testing
-
-Run tests:
-
-```bash
-pytest
-```
-
----
-
-# Screenshots
-
-Add screenshots here:
-
-- System Architecture
-- API Testing
-- AI Workflow
-- Sample Responses
-
-Example:
-
-```bash
-docs/screenshots/
-├── architecture.png
-├── api_response.png
-└── workflow.png
-```
-
----
-
 # Author
 
 ## Gunjan Paladiya
