@@ -1,5 +1,6 @@
 from langchain.schema import HumanMessage
 
+
 def classify_ticket(llm, query):
 
     prompt = f'''
