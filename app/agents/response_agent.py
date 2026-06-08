@@ -1,5 +1,6 @@
 from langchain.schema import HumanMessage
 
+
 def generate_response(llm, query, knowledge):
 
     prompt = f'''
