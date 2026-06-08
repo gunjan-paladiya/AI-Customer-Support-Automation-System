@@ -3,6 +3,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
+
 def build_vector_store():
     loader = TextLoader("data/knowledge_base.txt")
     documents = loader.load()
