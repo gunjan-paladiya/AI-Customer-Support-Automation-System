@@ -9,3 +9,4 @@ Password resets are automated.
 
 Subscriptions:
 Users can upgrade or cancel subscriptions anytime.
+
