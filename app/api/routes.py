@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 
+
 from app.database.vector_store import build_vector_store
 from app.agents.ticket_classifier import classify_ticket
 from app.agents.sentiment_agent import analyze_sentiment
